@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Kyrial
+- 👋 Hi, I’m Melvin
 - 👀 I’m interested in Computer Science, anstronomy and biology 
 - 🌱 I’m currently learning Master 1 Computer Science IMAGINA at Montpellier
 - 💞️ I’m looking to work in Deep learning or video game programming 
