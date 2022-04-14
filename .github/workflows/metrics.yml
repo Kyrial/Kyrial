@@ -1,0 +1,24 @@
+name: GitHub metrics as SVG image
+on:
+  schedule:
+    - cron: "0 0 * * 0" 
+  push:
+    branches: "main"
+  workflow_dispatch:
+jobs:
+  github-metrics-personal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Personal metrics
+        uses: napolitain/metrics@master
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: "html,css,xaml,postscript,netlogo,pug,Makefile,CMake,C,Jupyter"
+          plugin_languages_skipped: "napolitain.github.io,metrics,fds-napolitain/m1-3d-raytracer"
+          plugin_languages_details: percentage, bytes
+          plugin_languages_indepth: no
+          repositories_affiliations: owner, organization_member
