@@ -22,3 +22,4 @@ jobs:
           plugin_languages_details: percentage, bytes
           plugin_languages_indepth: no
           repositories_affiliations: owner, organization_member
+
