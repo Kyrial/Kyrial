@@ -17,8 +17,8 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_languages: yes
-          plugin_languages_ignored: "html,css,xaml,postscript,netlogo,pug,Makefile,CMake,C,Jupyter"
-          plugin_languages_skipped: "metrics,Kyrial/RayTracing/tree/master/raytracer-template/glfw-3.2,Kyrial/RayTracing"
+          plugin_languages_ignored: "html,css,xaml,postscript,netlogo,pug,Makefile,CMake,C,Jupyter,Mathematica,ShaderLab"
+          plugin_languages_skipped: "metrics,RayTracing/tree/master/raytracer-template/glfw-3.2,RayTracing"
           plugin_languages_details: percentage, bytes
           plugin_languages_indepth: no
           repositories_affiliations: owner, organization_member
