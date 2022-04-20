@@ -17,8 +17,8 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_languages: yes
-          plugin_languages_ignored: "html,css,xaml,postscript,netlogo,pug,Makefile,CMake,C,Jupyter,Mathematica,ShaderLab,HLSL"
-          plugin_languages_skipped: "metrics,RayTracing,IG-avanc-animation-et-rendu/tree/main/HAI917I_TP1_MLS/ann,IG-avanc-animation-et-rendu/tree/main/HAI917I_TP2_Dual_Contouring/ann,IG-avanc-animation-et-rendu/tree/main/HAI917I_TP3_ICP/ann"
+          plugin_languages_ignored: "html,css,xaml,postscript,netlogo,pug,Makefile,CMake,C,Jupyter,Mathematica,ShaderLab,HLSL,QMake"
+          plugin_languages_skipped: "metrics,RayTracing,IG-avanc-animation-et-rendu/HAI917I_TP1_MLS/ann,IG-avanc-animation-et-rendu/HAI917I_TP2_Dual_Contouring/ann,IG-avanc-animation-et-rendu/HAI917I_TP3_ICP/ann"
           plugin_languages_details: percentage, bytes
           plugin_languages_indepth: no
           repositories_affiliations: owner, organization_member
